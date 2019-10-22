@@ -15,4 +15,7 @@
 ## git 远程仓库
 - git remote add origin git@github.com:thiac/learngit.git: 关联仓库
 - git push -u origin master: 推送master所有内容
-
+- git checkout -b bran: 创建分支并转换到该分支
+- git branch: 列出所有分支，带*表示当前分支
+- git merge bran: 合并分支
+- git branch -d bran: 删除分支
