@@ -1,4 +1,5 @@
 # git 命令学习
+
 ## git 本地操作
 - git init: 初始化本地仓库 
 - git add file: 将修改添加到暂存区
@@ -10,3 +11,8 @@
 - git diff HEAD -- file: 命令可以查看工作区和版本库里面最新版本的区别
 - git checkout -- file: 撤销修改 
 - git rm file: 版本库中删除文件
+
+## git 远程仓库
+- git remote add origin git@github.com:thiac/learngit.git: 关联仓库
+- git push -u origin master: 推送master所有内容
+
