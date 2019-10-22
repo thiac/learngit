@@ -1,4 +1,12 @@
-1.记录平时leetcode刷题遇到的问题
-2.记录一些常用的用法
-3. 还有需要注意的地方
-4. 好像有点问题
+# git 命令学习
+## git 本地操作
+- git init: 初始化本地仓库 
+- git add file: 将修改添加到暂存区
+- git commit -m " 提交到分支
+- git status: 查看状态
+- git log: 历史记录
+- git reset --hard HEAD^: 回退到上一个版本
+- git reflog: 记录每一次cmd
+- git diff HEAD -- file: 命令可以查看工作区和版本库里面最新版本的区别
+- git checkout -- file: 撤销修改 
+- git rm file: 版本库中删除文件
