@@ -19,4 +19,6 @@
 - git branch: 列出所有分支，带*表示当前分支
 - git merge bran: 合并分支
 - git branch -d bran: 删除分支
-- git merge --no-ff -m "merge with no-ff" dev: no-off
+- git merge --no-ff -m "merge with no-ff" dev: 加上no-off参数就可以用普通模式合并，能看出曾经做过合并
+- git stash: 保存当前工作现场 
+
