@@ -15,6 +15,7 @@
 ## git 远程仓库
 - git remote add origin git@github.com:thiac/learngit.git: 关联仓库
 - git push -u origin master: 推送master所有内容
+- git pull: 拉取远程内容
 - git checkout -b bran: 创建分支并转换到该分支
 - git branch: 列出所有分支，带*表示当前分支
 - git merge bran: 合并分支
@@ -28,3 +29,13 @@
 - git stash pop: 边恢复边删除（以上两步动作的结合）
 - git log --graph --pretty=oneline --abbrev-commit 产看分支合并图
 - git rebase: 本地未push的分叉提交历史整理成直线，使查看历史提交更方便
+- git tag v××: 创建标签
+- git tag v×× commitID: 标签关联
+- git tag: 展示所有标签
+- git show tag: 展示标签内容
+- git tag -a 标签名 -m "commit" cimmitID
+- git tag -d v××: 删除标签
+- git push origin tag/--tags: 可以推送一个本地标签/全部未推送标签
+- git push origin :refs/tags/tagname: 可以删除一个远程标签
+- git config --list: 列出所有已配置的选项
+- 
