@@ -18,10 +18,13 @@
 - git checkout -b bran: 创建分支并转换到该分支
 - git branch: 列出所有分支，带*表示当前分支
 - git merge bran: 合并分支
-- git branch -d bran: 删除分支
+- git branch -d(D) bran: (强制)删除分支
 - git merge --no-ff -m "merge with no-ff" dev: 加上no-off参数就可以用普通模式合并，能看出曾经做过合并
+  ff(Fast foward)
 - git stash: 保存当前工作现场 
 - git stash list: 列出工作现场列表 
 - git stash apply: 恢复
 - git stash drop: 删除
 - git stash pop: 边恢复边删除（以上两步动作的结合）
+- git log --graph --pretty=oneline --abbrev-commit 产看分支合并图
+- git rebase: 本地未push的分叉提交历史整理成直线，使查看历史提交更方便
