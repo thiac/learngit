@@ -9,6 +9,7 @@
 - git reset --hard HEAD^: 回退到上一个版本
 - git reflog: 记录每一次cmd
 - git diff HEAD -- file: 命令可以查看工作区和版本库里面最新版本的区别
+- git diff --cached/stage
 - git checkout -- file: 撤销修改 
 - git rm file: 版本库中删除文件
 
@@ -23,7 +24,6 @@
 - git merge --no-ff -m "merge with no-ff" dev: 加上no-off参数就可以用普通模式合并，能看出曾经做过合并
   ff(Fast foward)
 - git stash: 保存当前工作现场 
-<<<<<<< Updated upstream
 - git stash list: 列出工作现场列表 
 - git stash apply: 恢复
 - git stash drop: 删除
@@ -39,5 +39,3 @@
 - git push origin tag/--tags: 可以推送一个本地标签/全部未推送标签
 - git push origin :refs/tags/tagname: 可以删除一个远程标签
 - git config --list: 列出所有已配置的选项
-=======
->>>>>>> Stashed changes
