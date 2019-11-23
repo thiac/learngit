@@ -35,11 +35,10 @@
     - EXPOSE 3000   将容器3000端口暴露出来，允许外部链接
     - CMD   容器启动后自动自行的命令，该命令在容器启动后执行
 有了Dockerfile文件以后，使用一下命令创建文件
-    docker image build -t filename:tag .
--t 参数用来指定image文件的名字
-   - docker container run  -p 8000:3000 -it image:tag /bin/bash    
-   -p 8000:3000 容器的3000端口映射到本机的8000端口
-   -it 容器的shell映射到本机的shell
-   /bin/bash　容器启动后内部执行的第一个命令
+- docker image build -t filename:tag . -t 参数用来指定image文件的名字
+- docker container run  -p 8000:3000 -it image:tag /bin/bash    
+   - -p 8000:3000 容器的3000端口映射到本机的8000端口
+   - -it 容器的shell映射到本机的shell
+   - /bin/bash　容器启动后内部执行的第一个命令
 
 
