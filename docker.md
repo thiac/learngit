@@ -24,8 +24,8 @@
 - docker container cp [containerID]:[PATH] .
 
 ## Dockerfile 文件
-.dockerignore   文件像github里的.gitignore一样用来忽略内容
-Dockerfile:
+- .dockerignore   文件像github里的.gitignore一样用来忽略内容
+- Dockerfile:
     - FROM image:tag    该文件继承自image的tag版本
     - COPY . /PATH
     将当前目录下的所有文件(除被.dockerignore忽略的）都拷贝到image 的/PATH路径下 
