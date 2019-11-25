@@ -10,8 +10,10 @@
 - docker info/version: 验证Docker是否安装成功
 - docker image ls: 列出本机所有image文件
 - docker image rm [image]: 删除image文件    
+- docker login: 登陆远程
+- docker tag [imageID] REPOSITORY:TAG: 重命名
 - docker image pull [image]: 将image文件从远程抓取到本地
-- docker push image
+- docker push image: 远程推送
 - docker container run: 生成一个正在运行的容器实例 
 - docker container kill [containerID]:
 对于不会自动终止的容器必须使用该命令手动终止
@@ -26,6 +28,7 @@
 - docker container cp [containerID]:[PATH] .
 - docker ps -a: 查看本地运行过的镜像列表
 - docker search [image]: 在远程搜索镜像
+
 
 
 ## Dockerfile 文件
